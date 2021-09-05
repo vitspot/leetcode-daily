@@ -1,5 +1,6 @@
 # My write up solution: (https://leetcode.com/problems/orderly-queue/discuss/1445861/python-3-clean-concise-solution-with-detail-explanation)
-  
+# siddheshwar day-5 python solution
+
   class Solution:
     def orderlyQueue(self, s: str, k: int) -> str:
         if k==1:
