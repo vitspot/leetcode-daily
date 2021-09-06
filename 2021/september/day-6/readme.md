@@ -10,56 +10,56 @@
 
 	Return the key of the keypress that had the longest duration. If there are multiple such keypresses, return the lexicographically largest key of the keypresses.
 
-###EXAMPLE 1:
+##EXAMPLE 1:
 
-Input: releaseTimes = [9,29,49,50], keysPressed = "cbcd"
+	Input: releaseTimes = [9,29,49,50], keysPressed = "cbcd"
 
-Output: "c"
+	Output: "c"
 
-Explanation: The keypresses were as follows:
+	Explanation: The keypresses were as follows:
 
-Keypress for 'c' had a duration of 9 (pressed at time 0 and released at time 9).
+	Keypress for 'c' had a duration of 9 (pressed at time 0 and released at time 9).
 
-Keypress for 'b' had a duration of 29 - 9 = 20 (pressed at time 9 right after the release of the previous character and released at time 29).
+	Keypress for 'b' had a duration of 29 - 9 = 20 (pressed at time 9 right after the release of the previous character and released at time 29).
 
-Keypress for 'c' had a duration of 49 - 29 = 20 (pressed at time 29 right after the release of the previous character and released at time 49).
+	Keypress for 'c' had a duration of 49 - 29 = 20 (pressed at time 29 right after the release of the previous character and released at time 49).
 
-Keypress for 'd' had a duration of 50 - 49 = 1 (pressed at time 49 right after the release of the previous character and released at time 50).
+	Keypress for 'd' had a duration of 50 - 49 = 1 (pressed at time 49 right after the release of the previous character and released at time 50).
 
-The longest of these was the keypress for 'b' and the second keypress for 'c', both with duration 20.
+	The longest of these was the keypress for 'b' and the second keypress for 'c', both with duration 20.
 
-'c' is lexicographically larger than 'b', so the answer is 'c'.
+	'c' is lexicographically larger than 'b', so the answer is 'c'.
 
-EXAMPLE 2:
+##EXAMPLE 2:
 
-Input: releaseTimes = [12,23,36,46,62], keysPressed = "spuda"
+	Input: releaseTimes = [12,23,36,46,62], keysPressed = "spuda"
 
-Output: "a"
+	Output: "a"
 
-Explanation: The keypresses were as follows:
+	Explanation: The keypresses were as follows:
 
-Keypress for 's' had a duration of 12.
+	Keypress for 's' had a duration of 12.
 
-Keypress for 'p' had a duration of 23 - 12 = 11.
+	Keypress for 'p' had a duration of 23 - 12 = 11.
 
-Keypress for 'u' had a duration of 36 - 23 = 13.
+	Keypress for 'u' had a duration of 36 - 23 = 13.
 
-Keypress for 'd' had a duration of 46 - 36 = 10.
+	Keypress for 'd' had a duration of 46 - 36 = 10.
 
-Keypress for 'a' had a duration of 62 - 46 = 16.
+	Keypress for 'a' had a duration of 62 - 46 = 16.
 
-The longest of these was the keypress for 'a' with duration 16.
+	The longest of these was the keypress for 'a' with duration 16.
 
-CONSTRAINTS
+##CONSTRAINTS
 
-releaseTimes.length == n
+	releaseTimes.length == n
 
-keysPressed.length == n
+	keysPressed.length == n
 
-2 <= n <= 1000
+	2 <= n <= 1000
 
-1 <= releaseTimes[i] <= 109
+	1 <= releaseTimes[i] <= 109
 
-releaseTimes[i] < releaseTimes[i+1]
+	releaseTimes[i] < releaseTimes[i+1]
 
-keysPressed contains only lowercase English letters.
+	keysPressed contains only lowercase English letters.
