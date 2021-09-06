@@ -4,7 +4,6 @@ public:
     char slowestKey(vector<int> &releaseTimes, string keysPressed)
     {
 
-        int len = keysPressed.length();
         int n = releaseTimes.size();
         vector<int> transformed;
         transformed.push_back(releaseTimes[0]);
