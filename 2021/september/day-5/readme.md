@@ -1,10 +1,8 @@
-#   Orderly Queue
+# Orderly Queue
 
 You are given a string s and an integer k. You can choose one of the first k letters of s and append it at the end of the string..
 
 Return the lexicographically smallest string you could have after applying the mentioned step any number of moves.
-
- 
 
 ### Example 1:
 
@@ -12,13 +10,9 @@ Return the lexicographically smallest string you could have after applying the m
 
         Output: "acb"
 
-        Explanation: 
+        Explanation:
         In the first move, we move the 1st character 'c' to the end, obtaining the string "bac".
         In the second move, we move the 1st character 'b' to the end, obtaining the final result "acb".
-
-
-
-
 
 ### Example 2:
 
@@ -26,7 +20,7 @@ Return the lexicographically smallest string you could have after applying the m
 
         Output: "aaabc"
 
-        Explanation: 
+        Explanation:
         In the first move, we move the 1st character 'b' to the end, obtaining the string "aacab".
         In the second move, we move the 3rd character 'c' to the end, obtaining the final result "aaabc"
 
@@ -34,5 +28,3 @@ Return the lexicographically smallest string you could have after applying the m
 
         1 <= k <= s.length <= 1000
         s consist of lowercase English letters.
-
-
