@@ -10,7 +10,7 @@ Note that the same key could have been pressed multiple times during the test, a
 
 Return the key of the keypress that had the longest duration. If there are multiple such keypresses, return the lexicographically largest key of the keypresses.
 
-EXAMPLES
+EXAMPLE 1:
 
 Input: releaseTimes = [9,29,49,50], keysPressed = "cbcd"
 
@@ -30,6 +30,7 @@ The longest of these was the keypress for 'b' and the second keypress for 'c', b
 
 'c' is lexicographically larger than 'b', so the answer is 'c'.
 
+EXAMPLE 2:
 
 Input: releaseTimes = [12,23,36,46,62], keysPressed = "spuda"
 
