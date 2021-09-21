@@ -21,7 +21,7 @@
 - [x] Day 18 - [Solution](./day-18/readme.md)
 - [ ] 19 - 
 - [x] Day 20 - [Solution](./day-20/readme.md)
-- [ ] Day 21 - 
+- [x] Day 21 - [Solution](./day-21/readme.md) 
 - [ ] Day 22 - 
 - [ ] Day 23 - 
 - [ ] Day 24 - 
