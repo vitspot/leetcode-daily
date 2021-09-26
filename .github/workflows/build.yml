@@ -1,0 +1,38 @@
+# Name of workflow
+name: Build README
+
+on:
+  # Run workflow on pushes to main branch
+  pull_request:
+    types: [closed]
+    branches:
+      - master
+
+# Steps to carry out
+jobs:
+  build:
+    # Create a ubuntu virtual machine
+    if: ${{ github.event.pull_request.merged }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          #pulltitle: ${{ github.event.pull_request.title }}
+      - run: |
+          echo "Outputs - ${{ github.event.pull_request.title }}"
+      - run:
+          python3 append-script.py "${{ github.event.pull_request.title }}"
+      - run:
+          python3 link-script.py "${{ github.event.pull_request.title }}"
+
+    # Commit changes
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config --global user.email "arjun140702@gmail.com"
+          git config --global user.name "Arjun"
+          git add .
+          git commit -m "Updated ${{ github.event.pull_request.title }}"
+          git push
