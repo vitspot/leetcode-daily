@@ -37,9 +37,11 @@ print(title)
 if re.match("^Solution:", title):
     [year, month, day] = title.split(":")[1].strip().split("/")
     month = month.lower()
+    year = int(year)
+    day = int(day)
 
-    max_days = getMonth(month, int(year))
-    path = "./" + year + "/" + month + "/"
+    max_days = getMonth(month, year)
+    path = "./" + str(year) + "/" + month + "/"
 
     readme = open(path + "readme.md", 'w')
     readme.write("# " + month.capitalize() + " Challenge\n\n## Available Solutions\n")
