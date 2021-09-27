@@ -8,8 +8,10 @@ print(title)
 if re.match("^Solution:", title):
     [year, month, day] = title.split(":")[1].strip().split("/")
     month = month.lower()
+    year = int(year)
+    day = int(day)
     
-    path = "./" + year + "/" + month + "/day-" + day + "/"
+    path = "./" + str(year) + "/" + month + "/day-" + str(day) + "/"
 
     files = [file for file in listdir(path) if isfile(join(path, file))]
     print(files)
