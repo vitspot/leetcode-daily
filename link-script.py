@@ -15,30 +15,33 @@ def isLeapYear(year):
         return False
 
 def getMonth(m, y) :
-    if m == 1: return ["january", 31]
-    if m == 2: 
+    if m == "january": return 31
+    if m == "february": 
         if isLeapYear(y):
-            return ["february", 29]
-        return ["february", 28]
-    if m == 3: return ["march", 31]
-    if m == 4: return ["april", 30]
-    if m == 5: return ["may", 31]
-    if m == 6: return ["june", 30]
-    if m == 7: return ["july", 31]
-    if m == 8: return ["august", 31]
-    if m == 9: return ["september", 30]
-    if m == 10: return ["october", 31]
-    if m == 11: return ["november", 30]
-    if m == 12: return ["december", 31]
+            return 29
+        return 28
+    if m == "march": return 31
+    if m == "april": return 30
+    if m == "may": return 31
+    if m == "june": return 30
+    if m == "july": return 31
+    if m == "august": return 31
+    if m == "september": return 30
+    if m == "october": return 31
+    if m == "november": return 30
+    if m == "december": return 31
 
 title = str(sys.argv[1])
 print(title)
 
-if re.match("^Solution: ([0-9]{1}|[0-9]{2})/([0-9]{1}|[0-9]{2})/[0-9]{4}$", title):
-    [day, month, year] = list(map(int, title.split(":")[1].split("/")))
+if re.match("^Solution:", title):
+    [year, month, day] = title.split(":")[1].strip().split("/")
+    month = month.lower()
+    year = int(year)
+    day = int(day)
 
-    [month, max_days] = getMonth(month, year)
-    path = "./" + str(year) + "/" + str(month) + "/"
+    max_days = getMonth(month, year)
+    path = "./" + str(year) + "/" + month + "/"
 
     readme = open(path + "readme.md", 'w')
     readme.write("# " + month.capitalize() + " Challenge\n\n## Available Solutions\n")

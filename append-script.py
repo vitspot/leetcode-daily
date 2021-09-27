@@ -2,28 +2,16 @@ import re, os, sys
 from os import listdir
 from os.path import isfile, join
 
-def getMonth(m):
-    if m == 1: return "january"
-    if m == 2: return "february"
-    if m == 3: return "march"
-    if m == 4: return "april"
-    if m == 5: return "may"
-    if m == 6: return "june"
-    if m == 7: return "july"
-    if m == 8: return "august"
-    if m == 9: return "september"
-    if m == 10: return "october"
-    if m == 11: return "november"
-    if m == 12: return "december"
-
 title = str(sys.argv[1])
 print(title)
 
-if re.match("^Solution: ([0-9]{1}|[0-9]{2})/([0-9]{1}|[0-9]{2})/[0-9]{4}$", title):
-    [day, month, year] = list(map(int, title.split(":")[1].split("/")))
-
-    month = getMonth(month)
-    path = "./" + str(year) + "/" + str(month) + "/day-" + str(day) + "/"
+if re.match("^Solution:", title):
+    [year, month, day] = title.split(":")[1].strip().split("/")
+    month = month.lower()
+    year = int(year)
+    day = int(day)
+    
+    path = "./" + str(year) + "/" + month + "/day-" + str(day) + "/"
 
     files = [file for file in listdir(path) if isfile(join(path, file))]
     print(files)
