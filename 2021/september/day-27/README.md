@@ -32,3 +32,6 @@ Given an array of strings emails where we send one email to each email[i], retur
     Each emails[i] contains exactly one '@' character.
     All local and domain names are non-empty.
     Local names do not start with a '+' character.
+    
+    
+ Problem : https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/639/week-4-september-22nd-september-28th/3989/
