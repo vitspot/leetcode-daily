@@ -5,9 +5,10 @@ from os.path import isfile, join
 title = str(sys.argv[1])
 print(title)
 
-if re.match("^Solution: $", title):
+if re.match("^Solution:", title):
     [year, month, day] = title.split(":")[1].strip().split("/")
-
+    month = month.lower()
+    
     path = "./" + year + "/" + month + "/day-" + day + "/"
 
     files = [file for file in listdir(path) if isfile(join(path, file))]
