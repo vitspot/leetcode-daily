@@ -123,7 +123,7 @@ if ("day-" + str(day)) in dirs and len(os.listdir(os.path.join(path, "day-" + st
     cpp = getBadges(os.path.join(path, "day-" + str(day)), "C++", ".cpp", "cplusplus", str(day), "blue")
     java = getBadges(os.path.join(path, "day-" + str(day)), "Java", ".java", "java", str(day), "red")
     py = getBadges(os.path.join(path, "day-" + str(day)), "Python", ".py", "python", str(day), "yellow")
-    lines_list[day + 2] = "- [x] Day " + str(day) + "- [" + qname + "](" + qurl + ") - [Solutions](./day-" + str(i) + "/readme.md) " + cpp + java + py + "\n"
+    lines_list[day + 2] = "- [x] Day " + str(day) + "- [" + qname + "](" + qurl + ") - [Solutions](./day-" + str(day) + "/readme.md) " + cpp + java + py + "\n"
     month_readme = open("readme.md", "w")
     month_readme.writelines(lines_list)
 month_readme.close()    
