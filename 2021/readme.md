@@ -1,4 +1,4 @@
 # 2021
 
 ## Submissions
-- [September](./september/readme.md) 
+- [September](./september/readme.md)

@@ -29,7 +29,7 @@
 - [ ] Day 26 - 
 - [ ] Day 27 - 
 - [ ] Day 28 - 
-- [ ] Day 29 - 
+- [x] Day 29- [Split Linked List in Parts](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/640/week-5-september-29th-september-30th/3992/) - [Solutions](./day-solution1.cpp/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-29/solution1.cpp) 
 - [ ] Day 30 - 
 
 
