@@ -1,0 +1,62 @@
+name: Solution submission
+description: Submit your solution for a Leetcode problem.
+title: "Leetcode Solution Submission"
+labels: "solution"
+
+body:
+  - type: markdown
+    id: desc
+    attributes:
+      value: "#### Fill in the fields below to make your submission: (Title can be anything relevant)"
+  - type: input
+    id: qname
+    attributes:
+      label: "Question Name:"
+      description: Name of the question as on Leetcode.
+      placeholder: Question name
+    validations:
+      required: true
+  - type: input
+    id: qurl
+    attributes:
+      label: "Question URL:"
+      description: Link to the question on Leetcode.
+      placeholder: Question URL (including https://)
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: "Leetcode Question:"
+      description: Copy-paste the question into the text area. (Add a ( \\ ) before every ( ` ) if any, to avoid parsing errors)
+      placeholder: Question (formatting is optional)
+    validations:
+      required: false
+  - type: input
+    id: qdate
+    attributes:
+      label: "Date:"
+      description: Date of the question as on Leetcode.
+      placeholder: dd/mm/yyyy
+    validations:
+      required: true
+  - type: dropdown
+    id: qlang
+    attributes:
+      label: "Language:"
+      description: Programming language used in the solution.
+      multiple: false
+      options:
+        - Cpp
+        - Java
+        - Py
+    validations:
+      required: true    
+  - type: textarea
+    id: qsoln
+    attributes:
+      label: "Solution:"
+      description: Copy-paste the solution into the text area.
+      placeholder: Your solution
+    validations:
+      required: true
