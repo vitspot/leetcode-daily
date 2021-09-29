@@ -11,14 +11,20 @@ Navigate using the following index:
   - November
 
 ## Contribution Guidelines
-1. Update your local repo using fetch and merge.
-2. If you are the first one to make Pull Request
-   - Make a README file that contains the day's problem description (README.md)
-   - Add your solution file with appropriate file extension and solution number (Eg- solution1.cpp, solution2.java)
-3. If you are not the first solution i.e, README file is already there, add only your solution file ( Eg- solution2.cpp)
-4. Update your local repo and make a single commit while making PR to https://github.com/vitspot/leetcode-daily.
-5. While making PR topic should be in format -> Month: Date: language (Eg- September : 05 : C++)
-6. Happy contributing!
+1. Go to the issues tab and open a new issue.
+2. If you are the first one to open a issue
+   - Start the issue by filling the form ( All fields are mandatory)
+3. If you are not the first solution then open issue and fill mandatory fields in form( Question is optional).
+4. Submit the issue
+5. Happy contributing!
+
+## Workflow of Issue Forms feature in Github issues
+1. Two new labels named "solution" and "accepted" have to be created. The solution label will be applied automatically when an issue is opened to submit a solution (so as to distinguish amongst other issues).
+2. The accepted label has to be applied to the issue before closing it (denoting that it can be merged), so that the respective actions can be carried out. If an issue is closed without adding the accepted label, it means it isn't accepted as a solution and thus will not be processed.
+3. All READMEs will be created by the script automatically based on the date mentioned in the submission.
+4. Entering the question name and URL is mandatory while entering the question is optional. If a question is not entered the first time a solution is submitted for a given date, then only the name will be present in the README of that day and the question has to be appended manually.
+5. In the README of a particular month, the name and link to the question of each day followed by the link to the day's README and links to the solutions will be present.
+
 
 ## Submitting Solutions 
 Want to be part of this initiative and share your solutions with everyone? Share your solutions as a pull request, and get an option to get featured on the solutions page.
