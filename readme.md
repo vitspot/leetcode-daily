@@ -7,7 +7,7 @@
 Navigate using the following index:
 - [2021](./2021/readme.md)
   - [September](./2021/september/readme.md)
-  - October
+  - [October](./2021/october/readme.md)
   - November
 
 ## Contribution Guidelines
