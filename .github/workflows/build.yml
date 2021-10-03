@@ -17,8 +17,9 @@ jobs:
         with:
           python-version: '3.x'
       - run: |-
-          git config --global user.email "arjun140702@gmail.com"
-          git config --global user.name "Arjun"
+         # git config --global user.email "arjun140702@gmail.com"
+          git config --global user.email "saurabh.singh2019@vitstudent.ac.in"
+          git config --global user.name "baazis"
           git pull
           python3 script.py '${{ github.event.issue.body }}'   
           
