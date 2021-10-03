@@ -1,7 +1,7 @@
 # October Challenge
 
 ## Available Solutions
-- [x] Day 1- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) - [Solutions](./day-1/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-1/solution1.cpp) 
+- [x] Day 1- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) - [Solutions](./day-1/readme.md) ![C++](https://img.shields.io/badge/C++-2-blue?style=social&logo=cplusplus)  [1](./day-1/solution1.cpp) [2](./day-1/solution2.cpp) 
 - [x] Day 2- [Dungeon Game](https://leetcode.com/problems/dungeon-game/) - [Solutions](./day-2/readme.md) ![Python](https://img.shields.io/badge/Python-2-yellow?style=social&logo=python)  [1](./day-2/solution1.py) [2](./day-2/solution2.py) 
 - [ ] Day 3 -
 - [ ] Day 4 -
