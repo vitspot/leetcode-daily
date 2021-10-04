@@ -10,17 +10,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+      issues: read
     if: ${{ github.event.issue.labels[1].name == 'accepted' }}
+    env:
+      TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
       - run: |-
-          git config --global user.email "sidheshwarsaravanan@gmail.com"
-          git config --global user.name "sidheshwar-s"
+          git config --global user.email "arjun140702@gmail.com"
+          git config --global user.name "Arjun"
           git pull
-          python3 script.py '${{ github.event.issue.body }}'   
+          pip install requests
+          python3 script.py ${{ github.event.issue.number }}
           
       - name: Commit and push if changed
         run: |-
