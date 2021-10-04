@@ -1,7 +1,12 @@
-import os, sys, calendar
+import os, sys, calendar, requests, json
 from calendar import monthrange
 
-body = str(sys.argv[1])
+token = os.environ['TOKEN']
+issue_number = int(sys.argv[1])
+header = {'Authorization': 'token ' + token, 'Accept': 'application/vnd.github.v3+json'}
+url = "https://api.github.com/repos/vitspot/leetcode-daily/issues/" + str(issue_number)
+response = requests.get(url, headers=header)
+body = response.json()["body"]
 print(body)
 
 temp = body.split("### Question Name:")[1].split("### Question URL:")
@@ -127,7 +132,6 @@ if ("day-" + str(day)) in dirs and len(os.listdir(os.path.join(path, "day-" + st
     month_readme = open("readme.md", "w")
     month_readme.writelines(lines_list)
 month_readme.close()    
-# Made month README
 
 os.chdir("../")
 path = os.getcwd()
