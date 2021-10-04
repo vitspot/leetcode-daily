@@ -28,7 +28,7 @@ body:
     id: question
     attributes:
       label: "Leetcode Question:"
-      description: Copy-paste the question into the text area. (Add a ( \\ ) before every ( ` ) if any, to avoid parsing errors)
+      description: Copy-paste the question into the text area (include the title of the question also).
       placeholder: Question (formatting is optional)
     validations:
       required: false
