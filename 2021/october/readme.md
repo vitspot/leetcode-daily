@@ -6,7 +6,7 @@
 - [x] Day 3 -  [Jump Game](https://leetcode.com/problems/jump-game/) - [Solutions](./day-3/readme.md) ![C++](https://img.shields.io/badge/C++-3-blue?style=social&logo=cplusplus)  [1](./day-3/solution.cpp)  
 - [x] Day 4- [Island Perimeter](https://leetcode.com/problems/island-perimeter/) - [Solutions](./day-4/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-4/solution1.cpp) ![Python](https://img.shields.io/badge/Python-2-yellow?style=social&logo=python)  [1](./day-4/solution2.py) [2](./day-4/solution3.py) 
 - [x] Day 5- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) - [Solutions](./day-5/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-5/solution1.cpp) 
-- [ ] Day 6 -
+- [x] Day 6- [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) - [Solutions](./day-6/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-6/solution1.cpp) 
 - [ ] Day 7 -
 - [ ] Day 8 -
 - [ ] Day 9 -
