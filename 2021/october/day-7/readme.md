@@ -44,3 +44,4 @@ Follow up: Could you use search pruning to make your solution faster with a larg
 
 ## Solutions:
 1. [Submission 1](./solution1.cpp) (Cpp)
+2. [Submission 2](./solution2.py) (Py)
