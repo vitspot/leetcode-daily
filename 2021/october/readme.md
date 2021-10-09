@@ -9,7 +9,7 @@
 - [x] Day 6- [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) - [Solutions](./day-6/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-6/solution1.cpp) 
 - [x] Day 7- [Word Search](https://leetcode.com/problems/word-search/) - [Solutions](./day-7/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-7/solution1.cpp) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-7/solution2.py) 
 - [ ] Day 8 -
-- [ ] Day 9 -
+- [x] Day 9- [Word Search II](https://leetcode.com/problems/word-search-ii/) - [Solutions](./day-9/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-9/solution1.py) 
 - [ ] Day 10 -
 - [ ] Day 11 -
 - [ ] Day 12 -
