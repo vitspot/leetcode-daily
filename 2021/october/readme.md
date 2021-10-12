@@ -12,7 +12,7 @@
 - [x] Day 9- [Word Search II](https://leetcode.com/problems/word-search-ii/) - [Solutions](./day-9/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-9/solution1.py) 
 - [x] Day 10- [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) - [Solutions](./day-10/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-10/solution1.cpp) 
 - [ ] Day 11 -
-- [ ] Day 12 -
+- [x] Day 12- [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) - [Solutions](./day-12/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-12/solution1.cpp) 
 - [ ] Day 13 -
 - [ ] Day 14 -
 - [ ] Day 15 -
