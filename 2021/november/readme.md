@@ -4,7 +4,7 @@
 - [x] Day 1- [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) - [Solutions](./day-1/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-1/solution1.py) 
 - [ ] Day 2 -
 - [ ] Day 3 -
-- [ ] Day 4 -
+- [x] Day 4- [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) - [Solutions](./day-4/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-4/solution1.py) 
 - [ ] Day 5 -
 - [ ] Day 6 -
 - [ ] Day 7 -
