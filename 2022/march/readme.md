@@ -4,7 +4,7 @@
 - [ ] Day 1 -
 - [ ] Day 2 -
 - [x] Day 3- [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) - [Solutions](./day-3/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-3/solution1.py) 
-- [ ] Day 4 -
+- [x] Day 4- [799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) - [Solutions](./day-4/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-4/solution1.py) 
 - [ ] Day 5 -
 - [ ] Day 6 -
 - [ ] Day 7 -
