@@ -8,7 +8,7 @@
 - [ ] Day 5 -
 - [ ] Day 6 -
 - [ ] Day 7 -
-- [ ] Day 8 -
+- [x] Day 8- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) - [Solutions](./day-8/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-8/solution1.py) 
 - [ ] Day 9 -
 - [ ] Day 10 -
 - [ ] Day 11 -
